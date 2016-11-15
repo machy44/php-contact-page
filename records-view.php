@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>View Records</title>
+	<title>View Commited forms</title>
 	<?php include 'includes/head.php'; ?>
 </head>
 <body>

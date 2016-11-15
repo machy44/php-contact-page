@@ -1,0 +1,14 @@
+.contact-message{
+	color: black;
+}
+
+.make-center{
+    box-sizing: border-box;
+}
+hr{
+	border-color: white;
+}
+
+.form-group.required{
+	color: red;
+}

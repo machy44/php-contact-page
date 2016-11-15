@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>Records</title>
+	<title>View Records</title>
 	<?php include 'includes/head.php'; ?>
 </head>
 <body>

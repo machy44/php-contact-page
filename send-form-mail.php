@@ -24,7 +24,7 @@
 		//$mail->Subject = "Test";
 		$mail->Body = $_POST['Inputmessage'];
 		//Set who the message is to be sent to
-		$mail->AddAddress("machy44@gmail.com");
+		
 		//Set the subject line
 		$mail->Subject = 'Form submission';	
 

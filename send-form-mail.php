@@ -15,16 +15,16 @@
 		$mail->SMTPAuth = true;
 		//$mail->IsHTML(true);
 		//Username to use for SMTP authentication - use full email address for gmail
-		$mail->Username = "machy44@gmail.com";
+		$mail->Username = "";
 		//Password to use for SMTP authentication
-		$mail->Password = "TrudSeIsplati4";
+		$mail->Password = "";
 		//Set who the message is to be sent from
 		$mail->SetFrom($_POST['Inputmail']);
 		$mail->FromName = $_POST['Inputmail'];
 		//$mail->Subject = "Test";
 		$mail->Body = $_POST['Inputmessage'];
 		//Set who the message is to be sent to
-		$mail->AddAddress("machy44@gmail.com");
+		$mail->AddAddress("");
 		//Set the subject line
 		$mail->Subject = 'Form submission';	
 

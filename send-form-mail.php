@@ -15,9 +15,9 @@
 		$mail->SMTPAuth = true;
 		//$mail->IsHTML(true);
 		//Username to use for SMTP authentication - use full email address for gmail
-		$mail->Username = "machy44@gmail.com";
+		
 		//Password to use for SMTP authentication
-		$mail->Password = "TrudSeIsplati4";
+		
 		//Set who the message is to be sent from
 		$mail->SetFrom($_POST['Inputmail']);
 		$mail->FromName = $_POST['Inputmail'];

@@ -1,7 +1,7 @@
 <?php
 //connect to server
 <<<<<<< HEAD
-$conn  = mysqli_connect("localhost","root","root","php-contact-page");
+$conn  = mysqli_connect("","","","");
 if(!$conn){
     die("Cannot to connect the database: " . mysql_error());
 }

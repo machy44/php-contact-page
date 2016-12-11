@@ -1,6 +1,7 @@
 <?php
 
 	 require 'vendor/autoload.php';
+
 		$mail = new PHPMailer(); // create a new object
 		$mail->IsSMTP(); // enable SMTP
 		//$mail->SMTPDebug = 2; // debugging: 1 = errors and messages, 2 = messages only
@@ -15,16 +16,16 @@
 		$mail->SMTPAuth = true;
 		//$mail->IsHTML(true);
 		//Username to use for SMTP authentication - use full email address for gmail
-		$mail->Username = "";
+		$mail->Username = "something";
 		//Password to use for SMTP authentication
-		$mail->Password = "";
+		$mail->Password = "something";
 		//Set who the message is to be sent from
 		$mail->SetFrom($_POST['Inputmail']);
 		$mail->FromName = $_POST['Inputmail'];
 		//$mail->Subject = "Test";
 		$mail->Body = $_POST['Inputmessage'];
 		//Set who the message is to be sent to
-		$mail->AddAddress("");
+		$mail->AddAddress("email of recipient");
 		//Set the subject line
 		$mail->Subject = 'Form submission';	
 

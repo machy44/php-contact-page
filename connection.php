@@ -1,8 +1,13 @@
 <?php
 //connect to server
-$conn  = mysqli_connect("","","","php-contact-page");
-if(!$conn){
-    die("Cannot to connect the database: " . mysql_error());
+$servername = "localhost";
+$username = "root";
+$password = "root";
+$dbname = "php-contact-page";
+$conn  = mysqli_connect($servername, $username, $password, $dbname);
+//check connection
+if(mysqli_connect_errno()){
+    die("Cannot to connect the database: " . mysqli_connect_error());
 }
 
 ?>
